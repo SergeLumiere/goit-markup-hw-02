@@ -16,8 +16,7 @@
   --logo-accent-txt: #2196f3;
 
   /* Цвет фона */
-  --primary-light-bg: #e5e5e5;
-  --secondary-light-bg: #ffffff;
+  --primary-light-bg: #ffffff;
   --primary-dark-bg: #2f303a;
   --secondary-dark-bg: #f5f4fa;
 
@@ -67,6 +66,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .logo-accent {
   color: var(--logo-accent-txt);
@@ -82,6 +82,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -91,8 +92,6 @@ body {
 }
 /* Секция Верхняя линия (хедер) */
 .header {
-  background-color: var(--secondary-light-bg);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -201,6 +200,7 @@ body {
 .team-list {
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 .team .subtitle {
@@ -217,6 +217,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  letter-spacing: 0.03em;
   text-align: center;
 
   color: var(--button-dark-text);
@@ -239,4 +240,5 @@ body {
 .projects-list .section-txt {
   font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.03em;
 }
