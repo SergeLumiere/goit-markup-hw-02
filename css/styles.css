@@ -54,7 +54,6 @@
 body {
 	font-family: var(--main-font);
 	font-size: 16px;
-	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--primary-text-color);
 
@@ -95,7 +94,7 @@ body {
 	color: var(--primary-accent-color);
 }
 .section-title {
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
 	letter-spacing: 0.02em;
@@ -104,12 +103,15 @@ body {
 	color: var(--secondary-text-color);
 }
 .subtitle {
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 
 	color: var(--secondary-text-color);
+}
+.section-txt {
+	line-height: 1.5;
 }
 .btn {
 	cursor: pointer;
@@ -120,15 +122,20 @@ body {
 	color: var(--secondary-text-color);
 }
 .nav-item-link {
-	font-weight: 600;
-
+	font-weight: 700;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 	color: var(--secondary-text-color);
 }
 .nav-item-link:hover,
 .nav-item-link:focus {
 	color: var(--primary-accent-color);
 }
+.current {
+	color: var(--primary-accent-color);
+}
 .header-contacts-link {
+	line-height: 1.5;
 	color: var(--primary-text-color);
 }
 .header-contacts-link:hover,
@@ -144,6 +151,7 @@ body {
 	color: var(--secondary-light-text-color);
 }
 .footer-text {
+	line-height: 1.5;
 	color: var(--primary-light-text-color);
 }
 
@@ -153,7 +161,7 @@ body {
 	background-color: var(--primary-dark-background-color);
 }
 .hero-title {
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.07;
 	letter-spacing: 0.02em;
@@ -162,7 +170,7 @@ body {
 }
 .hero-button {
 	font-family: inherit;
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.19;
 	letter-spacing: 0.04em;
@@ -185,7 +193,7 @@ body {
 /* ================= PORTFOLIO.HTML ================= */
 .filters-btn {
 	font-family: inherit;
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
